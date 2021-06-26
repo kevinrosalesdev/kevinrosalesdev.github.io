@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Kevin Rosales",
-  title: "Hi all, I'm Kevin Rosales",
+  title: "Hi! I'm Kevin Rosales",
   subTitle: emoji(
-    "I am a passionate Computer Engineer specialized in Data Science, Machine Learning & Software Engineering 💻"
+    "I am a 22 years old spanish passionate Computer Engineer specialized in Data Science, Machine Learning & Software Engineering located in Barcelona, Spain 💻"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1S_KohRRkBgEK_1iov5Yot922NJouY3Zw/view?usp=sharing",
@@ -161,16 +161,6 @@ const educationInfo = {
           "Programming I, Programming II, Databases, Fundamentals of Intelligent Systems, Algorithms and Computability and " +
           "Design of User Interfaces"
       ]
-    },
-    {
-      schoolName: "The University of Melbourne",
-      logo: require("./assets/images/melbourne.png"),
-      subHeader: "Discrete Optimization Course",
-      duration: "July 2019",
-      desc: "Course about Discrete Optimization from Coursera.",
-      descBullets: [
-        "ID: NKLXN7ZULRX9"
-      ]
     }
   ]
 };
@@ -233,29 +223,33 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Hackathon Projects",
+  subtitle: "Some projects developed during Hackathons",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo-hackupc.png"),
+      projectName: "Trustometer (2018)",
+      projectDesc: "Google Chrome extension to detect fake news using Natural Language Processing",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Hackathon Website",
+          url: "https://hackupc.com/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/kevinrosalesdev/trustometer/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/femepa_logo.png"),
+      projectName: "Futura-T (2018)",
+      projectDesc: "Website to help students to afford various challenges to improve their CV and get them into the world of work",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Hackathon Website",
+          url: "https://feelthemetalpower.com/"
         }
       ]
     }
@@ -267,55 +261,29 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements & Certifications"),
+  // subtitle:
+  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Discrete Optimization Course (July 2019)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Online course authorized by The University of Melbourne and offered through Coursera",
+      image: require("./assets/images/melbourne.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.coursera.org/account/accomplishments/certificate/NKLXN7ZULRX9"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "B2 First",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+        "B2 First from the University of Cambridge",
+      image: require("./assets/images/university-of-cambridge-logo.png"),
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -342,7 +310,7 @@ const blogSection = {
     //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -361,7 +329,7 @@ const talkSection = {
     //   event_url: "https://www.facebook.com/events/2339906106275053/"
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -374,14 +342,12 @@ const podcastSection = {
   podcast: [
     // "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
+  subtitle: "",
   email_address: "kevinrosalesdev@gmail.com"
 };
 
@@ -389,7 +355,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
