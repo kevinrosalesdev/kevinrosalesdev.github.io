@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "347cbf0191b3a2c416b5f27c3214d15d",
+    "revision": "02b5ba8bf96fbe86eed8a529863b2d01",
     "url": "/index.html"
   },
   {
-    "revision": "5e2851c84317729e058e",
+    "revision": "e3683ac4092311cc3f24",
     "url": "/static/css/3.7e08da46.chunk.css"
   },
   {
-    "revision": "694cda64dd217a4865ca",
+    "revision": "d6e535a236626e7ccd86",
     "url": "/static/css/4.fd3b6831.chunk.css"
   },
   {
-    "revision": "03a112999947066948cf",
-    "url": "/static/css/main.1e25bef8.chunk.css"
+    "revision": "d86b502d3fb06d7f3bc1",
+    "url": "/static/css/main.23d0eec7.chunk.css"
   },
   {
-    "revision": "422e52ac7c4ded2f4a04",
-    "url": "/static/js/2.67801575.chunk.js"
+    "revision": "1b8320f903fd37d9a4db",
+    "url": "/static/js/2.167f395c.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.67801575.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.167f395c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e2851c84317729e058e",
-    "url": "/static/js/3.3f012192.chunk.js"
+    "revision": "e3683ac4092311cc3f24",
+    "url": "/static/js/3.7ae80641.chunk.js"
   },
   {
-    "revision": "694cda64dd217a4865ca",
-    "url": "/static/js/4.e9d35950.chunk.js"
+    "revision": "d6e535a236626e7ccd86",
+    "url": "/static/js/4.a71014a8.chunk.js"
   },
   {
-    "revision": "03a112999947066948cf",
-    "url": "/static/js/main.b20f747f.chunk.js"
+    "revision": "d86b502d3fb06d7f3bc1",
+    "url": "/static/js/main.28da9b32.chunk.js"
   },
   {
-    "revision": "cad389a0e4eea7be39ab",
-    "url": "/static/js/runtime-main.76bb7ef2.js"
+    "revision": "be6996370c35d37eb3b5",
+    "url": "/static/js/runtime-main.42c37d19.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
     "url": "/static/media/Agustina.a3752c4b.woff"
+  },
+  {
+    "revision": "400dc0a0e51095530ccc238eee21d55a",
+    "url": "/static/media/BSC-Logo.400dc0a0.jpg"
   },
   {
     "revision": "847627bffd52aab57ce2e903f144e07f",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "36bc322b63bb49c84dcc6f28dab1313c",
     "url": "/static/media/femepa_logo.36bc322b.png"
+  },
+  {
+    "revision": "6a834649522a287b4cf8d59fdd0aef77",
+    "url": "/static/media/google.6a834649.png"
   },
   {
     "revision": "9bbcbc5787a88a19c87069be64bfb3d0",
